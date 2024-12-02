@@ -1,0 +1,60 @@
+# Node.js / NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# TypeScript build files
+*.tsbuildinfo
+/dist/
+build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# React Native Metro bundler
+*.metro*
+*.expo/
+
+# iOS / Xcode
+ios/Pods/
+ios/build/
+ios/.expo/
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+
+# IntelliJ / WebStorm
+.idea/
+
+# VS Code workspace settings
+.vscode/
+
+# ESLint Cache
+.eslintcache
+
+# Prettier Cache
+.prettiercache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# React Native / Expo Specific
+.expo/
+.expo-shared/
+
+# Optional: Add the following if you're using testing libraries
+coverage/

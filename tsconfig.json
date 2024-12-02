@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                               /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                             /* Specify the module code generation. */
+    "moduleResolution": "node",                       /* Resolve modules the same way Node.js does. */
+    "lib": ["es2016", "dom"],                         /* Include standard JS libraries (ES6 and DOM support). */
+    "jsx": "react-native",                            /* React Native JSX support. */
+    "esModuleInterop": true,                          /* Enable compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,         /* Ensure file imports are case-sensitive. */
+    
+    /* Type Checking */
+    "strict": true,                                   /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                            /* Raise error on implicit 'any' types. */
+    "strictNullChecks": true,                         /* Enforce strict checking for 'null' and 'undefined'. */
+    "strictFunctionTypes": true,                      /* Ensure function parameter and return types are subtype-compatible. */
+    "strictPropertyInitialization": true,             /* Ensure class properties are initialized in the constructor. */
+    "noUnusedLocals": true,                           /* Report errors for unused local variables. */
+    "noUnusedParameters": true,                       /* Report errors for unused function parameters. */
+    "noImplicitReturns": true,                        /* Ensure functions have an explicit return type. */
+    "noFallthroughCasesInSwitch": true,               /* Enforce explicit break statements in switch cases. */
+
+    /* Emit */
+    "declaration": true,                              /* Generate .d.ts files for your TypeScript code. */
+    "declarationMap": true,                           /* Create sourcemaps for the .d.ts files. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "./dist",                               /* Specify an output folder for compiled JavaScript. */
+    "removeComments": true,                           /* Remove comments from emitted files. */
+    "importHelpers": true,                            /* Use helpers from tslib instead of inlined code. */
+    "downlevelIteration": true,                       /* Generate compatible JavaScript for iteration. */
+    
+    /* Path Aliases (for better module resolution) */
+    "baseUrl": ".",                                   /* Set the base directory for resolving non-relative imports. */
+    "paths": {
+      "@src/*": ["src/*"],                            /* Define path alias for better module imports. */
+      "@utils/*": ["src/utils/*"],                     /* Path alias for utils. */
+      "@api/*": ["src/api/*"]                          /* Path alias for API-related modules. */
+    },
+
+    /* Interoperability */
+    "isolatedModules": true,                          /* Ensures each file can be transpiled independently (important for React Native). */
+    "skipLibCheck": true,                             /* Skip type checking of declaration files (*.d.ts) for faster build. */
+
+    /* Performance and Maintainability */
+    "incremental": true,                              /* Enables incremental builds to improve compilation time. */
+    "tsBuildInfoFile": "./.tsbuildinfo",              /* Store incremental build information. */
+    
+    /* Other */
+    "noEmit": false,                                  /* Enable emitting files (JS and d.ts) */
+    "declarationDir": "./dist/types",                 /* Set directory for generated declaration files. */
+    "skipDefaultLibCheck": true                       /* Skip type checking of default lib files. */
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}
