@@ -53,7 +53,8 @@ If you plan to modify the SDK or use it in a custom React Native project, you ma
         npm run build
         ```
 
-### Usage Examples 
+### System Design
+ -- https://lucid.app/lucidchart/621a9526-dab3-4180-a4b9-952dc3cd1f80/edit?viewport_loc=14%2C2637%2C1768%2C1058%2C0_0&invitationId=inv_ee636800-0f86-4163-ac06-754c567132dd
 
 
 
